@@ -3,7 +3,7 @@ VIP Project: Transformative AI for Safety<br>
 Project Title: Precipitation and Tucson Traffic Accident Frequency
 
 ## Stage 1: Accident Mapping
-The first stage of the project will be the visualization of historical traffic accident data. The visualization will be in the form of a map of the City of Tucson showing the locations where traffic accidents occurred. The map can be filtered to show accidents by amount of precipitation, such as accidents that occurred at precipitation levels between 0 and 1 inches. 
+The first stage of the project will be the visualization of historical traffic accident data. The visualization will be in the form of a map of San Francisco showing the locations where traffic accidents occurred. The map can be filtered to show accidents by amount of precipitation, such as accidents that occurred at precipitation levels between 0 and 1 inches. 
 
 The goal of this visualization is to show the areas where the most accidents are occurring. The filter will allow users to compare the accident hotspots when precipitation is and is not occurring.
 
@@ -15,7 +15,7 @@ The first stage is planned to be completed as a deliverable that can be presente
 
 ## Procedure
 1. **Data Acquisition**
-    - Get City of Tucson and NOAA datasets.
+    - Get San Francisco and NOAA datasets.
     - Necessary info:
         - Accidents: Location, date, time
         - Weather: Precipitation levels, dates, times
@@ -25,7 +25,7 @@ The first stage is planned to be completed as a deliverable that can be presente
 3. **Map Visualization**
     - Plotly library
     - Plot accident locations on map using latitude and longitude data.
-    - Display City of Tucson boundaries, streets, and major features on the map.
+    - Display San Francisco boundaries, streets, and major features on the map.
 4. **Precipitation Level Filter**
     - Add a user interface in the interactive visualization that allows the user to select precipitation values to filter by. Show maximum value for the time period and prevent users from searching outside of the minimum-maximum range. 
     - Implement filter functionality by filtering accident dataset based on dates/times matching NOAA data.
