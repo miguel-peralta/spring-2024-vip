@@ -15,15 +15,17 @@ The first stage is planned to be completed as a deliverable that can be presente
 
 ## Procedure
 1. **Data Acquisition**
-    - Get San Francisco and NOAA datasets.
-    - Necessary info:
-        - Accidents: Location, date, time
-        - Weather: Precipitation levels, dates, times
+    - Get accident and weather datasets.
+    - Accidents:
+        - Dataset titled "Traffic Crashes Resulting in Injury"
+        - Download csv via url
+    - Weather:
+        - The NOAA Regional Climate Centers (RCCs) has created the Applied Climate Information System (ACIS) which allows you to create API queries to request historical weather data from specific stations. I will be using the San Francisco Downtown station and will be requesting precipitation data. 
 2. **Data Preprocessing**
     - Handle missing values, irrelevant/unnecessary columns.
     - Convert columns to standard and appropriate formats.
 3. **Map Visualization**
-    - Plotly library
+    - Plotly library and Mapbox maps
     - Plot accident locations on map using latitude and longitude data.
     - Display San Francisco boundaries, streets, and major features on the map.
 4. **Precipitation Level Filter**
